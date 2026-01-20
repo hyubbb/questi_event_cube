@@ -1,0 +1,5 @@
+{
+  "name": "Cube Master",
+  "description": "An intelligent 3D spatial geometry learning simulator for elementary students. Build cube structures, visualize 2D projections, and calculate surface area and volume automatically.",
+  "requestFramePermissions": []
+}
