@@ -74,7 +74,7 @@ export const QuizMode: React.FC<QuizModeProps> = ({ voxels, onSubmit, timeLimit 
   }, [timeLimit, isSubmitted, handleSubmit]);
 
   return (
-    <div className="flex flex-col h-full w-full">
+    <div className="flex flex-col w-full overflow-y-auto">
       {/* Header */}
       <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-4 md:p-6">
         <div className="max-w-2xl mx-auto">
@@ -106,7 +106,7 @@ export const QuizMode: React.FC<QuizModeProps> = ({ voxels, onSubmit, timeLimit 
       )}
 
       {/* 2D Views Grid */}
-      <div className="flex-1 bg-gradient-to-br from-sky-50 to-indigo-50/50 p-4 md:p-6 overflow-y-auto">
+      <div className="bg-gradient-to-br from-sky-50 to-indigo-50/50 p-4 md:p-6">
         <div className="max-w-2xl mx-auto space-y-4 md:space-y-6">
 
           {/* Top View */}
